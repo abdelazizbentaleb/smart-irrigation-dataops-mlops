@@ -1,0 +1,16 @@
+# Python & Venv
+__pycache__/
+venv/
+.env
+
+# Données (Pour éviter d'envoyer les CSV ou Parquet mentionnés dans le projet)
+*.csv
+*.parquet
+data/
+logs/
+
+# IDE
+.vscode/
+
+# Docker (Volumes locaux pour Postgres/Kafka)
+postgres-data/
